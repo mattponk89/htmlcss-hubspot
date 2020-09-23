@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0;
 }
+body{
+  font-size: 15px;
+}
+/* uso questa classe per centrare orizzonalmente  */
 .page-centre{
   width: 70%;
   margin: auto;
@@ -15,6 +19,7 @@
   height: 80px;
   position: relative;
 }
+/* uso questa classe per centrare a sinistra  */
 .left-centre{
   position:absolute;
   top: 50%;
@@ -28,6 +33,7 @@
 .language{
   margin-right: 20px;
 }
+/* uso questa classe per centrare a destra */
 .right-centre{
   position:absolute;
   top: 50%;
@@ -50,4 +56,24 @@
 }
 .menu li{
   display: inline-block;
+}
+.presentation{
+  height: 500px;
+  border-bottom: 3px solid black;
+}
+.form-presentation{
+  width: 40%;
+  margin-top: 10%;
+}
+.form-presentation h2{
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.form-presentation button {
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+.form-presentation .sublime-text{
+  font-size: 0.7em;
 }
