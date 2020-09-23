@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.page-centre{
+  width: 70%;
+  margin: auto;
+}
+.container-topheader{
+  border-bottom: 3px solid blue;
+}
+.top-header{
+  border: 3px solid black;
+  height: 80px;
+  position: relative;
+}
+.left-centre{
+  position:absolute;
+  top: 50%;
+  left:0%;
+  transform: translate(0, -50%);
+
+}
+.menu-language{
+  background-color: lightgrey;
+}
+.language{
+  margin-right: 20px;
+}
+.right-centre{
+  position:absolute;
+  top: 50%;
+  right:0%;
+  transform: translate(0, -50%);
+}
+.menu-login button{
+  padding: 5px;
+}
+
+.bottom-header{
+  height: 80px;
+  border: 1px solid green;
+  position: relative;
+}
+.logo-top{
+  height: 70px;
+  width: 100px;
+  background-color: darkblue;
+}
+.menu li{
+  display: inline-block;
+}
