@@ -57,23 +57,139 @@ body{
 .menu li{
   display: inline-block;
 }
+section {
+  margin: 50px 0;
+}
 .presentation{
   height: 500px;
   border-bottom: 3px solid black;
 }
 .form-presentation{
   width: 40%;
-  margin-top: 10%;
 }
 .form-presentation h2{
   font-size: 3em;
   font-weight: bold;
   margin: 20px 0;
 }
-.form-presentation button {
+.button-page {
   margin: 20px 0px;
   padding: 10px 20px;
+  background: darkorange;
+  border-radius: 5px;
 }
 .form-presentation .sublime-text{
   font-size: 0.7em;
+}
+.container-togheter{
+  text-align: center;
+}
+.container-togheter::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.img-cubic{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.container-togheter h3{
+  font-size: 2.3em;
+  margin-bottom: 20px;
+}
+.container-togheter p{
+  margin: 50px 0;
+}
+.img-book{
+  margin: 20px 30px 0 30px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: purple;
+}
+
+.form-book{
+  margin: 5%;
+  width: 20%;
+  float:left;
+  text-align: center;
+
+}
+.button-page {
+  /* margin: 20px 0px; */
+  padding: 10px 20px;
+  background: darkorange;
+  border-radius: 5px;
+}
+.form-crm-free{
+  float:left;
+  margin: 5%;
+  width: 60%;
+  background-color: lightgreen;
+}
+.container-togheter h4{
+  font-size: 2em
+}
+.form-crm-free{
+  text-align: left;
+}
+.form-crm-free h5{
+  font-size: 1.2em;
+}
+.form-crm-free li{
+  display: inline-block;
+  padding: 10px;
+}
+.container-3-col .box{
+  float: left;
+  width: 25%;
+  margin: 4%;
+}
+.img-box{
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+  display: inline-block;
+}
+.box h5{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.box hr{
+  margin: 40px 0px;
+}
+.box ul{
+  text-align: left;
+  margin-left: 15px;
+}
+.section-blue{
+  background-color: #83c5be;
+}
+.presentation-blue{
+  color: white;
+  padding-top: 50px;
+}
+.row-blue::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.box-blue{
+  float: left;
+  width: 25%;
+  height: 200px;
+  border: 1px solid white;
+}
+.row-blue:last-of-type{
+  margin-bottom: 100px;
+}
+
+.num-customer{
+  height: 150px;
+  width:150px;
+  background-color: purple;
+  margin: 50px;
 }
