@@ -3,9 +3,14 @@
   padding: 0;
   margin: 0;
 }
+@font-face {
+  font-family: metropolis;
+  src: url(metropolis-Regular.otf);
+}
 body{
   font-size: 17px;
   color: #33475b;
+  font-family: metropolis, sans-serif;
 }
 /* uso questa classe per centrare orizzonalmente  */
 .page-centre{
@@ -65,6 +70,7 @@ body{
 section {
   margin: 50px 0;
 }
+/* foto di sfondo top */
 .presentation{
   height: 600px;
   background-image: url(../img/sfondo-top.png);
@@ -80,6 +86,7 @@ section {
   font-weight: bold;
   margin: 20px 0;
 }
+/* button arancioni  */
 .button-page {
   margin: 20px 0px;
   padding: 10px 20px;
@@ -117,11 +124,6 @@ section {
   text-align: center;
 
 }
-.button-page {
-  padding: 10px 20px;
-  background: darkorange;
-  border-radius: 5px;
-}
 .form-crm-free{
   margin: 5%;
   width: 60%;
@@ -153,6 +155,10 @@ section {
 .box ul{
   text-align: left;
   margin-left: 15px;
+}
+.box .img-box img{
+  width: 60%;
+  margin: auto;
 }
 .section-blue{
   background-color: #00abb7;
@@ -203,12 +209,52 @@ section {
   width: 100%;
   background-color: darkgreen;
 }
-/* footer{
-  background-color: blue;
+footer{
+  background-color: #32495b;
+  color: white;
+  height:400px;
+}
+.row-footer{
+  padding: 30px 0;
+
 }
 .box-footer{
-  height: 200px;
   width: 25%;
-  background-color: lightblue;
-  border: 1px solid black;
-} */
+  padding: 0 10px;
+}
+.box-footer h6{
+  font-size: 1.1em;
+  line-height: 30px;
+}
+.box-footer ul {
+  list-style-type: none;
+}
+.box-footer ul li a{
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+.button-support {
+  padding:5px 10px;
+  margin: 10px 0;
+  color: #32495b;
+  border: #32495b;
+  border-radius: 5px;
+}
+.social-contact li {
+  display: inline-block;
+  width: 15%;
+  font-size: 14px;
+}
+.language-footer {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.language-footer ul li {
+  display: inline-block;
+  padding: 15px;
+}
+.language-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
