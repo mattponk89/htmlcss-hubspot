@@ -4,7 +4,8 @@
   margin: 0;
 }
 body{
-  font-size: 15px;
+  font-size: 17px;
+  color: #33475b;
 }
 /* uso questa classe per centrare orizzonalmente  */
 .page-centre{
@@ -12,10 +13,9 @@ body{
   margin: auto;
 }
 .container-topheader{
-  border-bottom: 3px solid blue;
+  border-bottom: 1px solid #33475b;
 }
 .top-header{
-  border: 3px solid black;
   height: 80px;
   position: relative;
 }
@@ -27,13 +27,12 @@ body{
   transform: translate(0, -50%);
 
 }
-.menu-language{
-  background-color: lightgrey;
-}
+
 .language{
   margin-right: 20px;
+  font-size: 1.2em;
 }
-/* uso questa classe per centrare a destra */
+/* uso questa classe per centrare verticalmente ed a destra */
 .right-centre{
   position:absolute;
   top: 50%;
@@ -43,26 +42,35 @@ body{
 .menu-login button{
   padding: 5px;
 }
-
+.menu-login .login-button{
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: orange;
+  margin-right: 15px;
+}
 .bottom-header{
   height: 80px;
-  border: 1px solid green;
   position: relative;
 }
-.logo-top{
-  height: 70px;
-  width: 100px;
-  background-color: darkblue;
-}
+
 .menu li{
   display: inline-block;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+.menu li a{
+  text-decoration: none;
+  color: #33475b;
 }
 section {
   margin: 50px 0;
 }
 .presentation{
-  height: 500px;
-  border-bottom: 3px solid black;
+  height: 600px;
+  background-image: url(../img/sfondo-top.png);
+  background-size: cover;
+  background-position:bottom;
+  background-repeat: no-repeat;
 }
 .form-presentation{
   width: 40%;
@@ -77,6 +85,8 @@ section {
   padding: 10px 20px;
   background: darkorange;
   border-radius: 5px;
+  border: 1px solid orange;
+  color: white;
 }
 .form-presentation .sublime-text{
   font-size: 0.7em;
@@ -84,16 +94,11 @@ section {
 .container-togheter{
   text-align: center;
 }
-.container-togheter::after{
+/* clearfix */
+.container-togheter::after, .row::after{
   content: '';
   display: table;
   clear: both;
-}
-.img-cubic{
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
 }
 
 .container-togheter h3{
@@ -103,32 +108,23 @@ section {
 .container-togheter p{
   margin: 50px 0;
 }
-.img-book{
-  margin: 20px 30px 0 30px;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  background-color: purple;
+.f-left {
+  float: left;
 }
-
 .form-book{
   margin: 5%;
   width: 20%;
-  float:left;
   text-align: center;
 
 }
 .button-page {
-  /* margin: 20px 0px; */
   padding: 10px 20px;
   background: darkorange;
   border-radius: 5px;
 }
 .form-crm-free{
-  float:left;
   margin: 5%;
   width: 60%;
-  background-color: lightgreen;
 }
 .container-togheter h4{
   font-size: 2em
@@ -144,15 +140,8 @@ section {
   padding: 10px;
 }
 .container-3-col .box{
-  float: left;
   width: 25%;
   margin: 4%;
-}
-.img-box{
-  width: 60px;
-  height: 60px;
-  background-color: lightblue;
-  display: inline-block;
 }
 .box h5{
   font-size: 1.2em;
@@ -166,30 +155,60 @@ section {
   margin-left: 15px;
 }
 .section-blue{
-  background-color: #83c5be;
+  background-color: #00abb7;
 }
 .presentation-blue{
   color: white;
   padding-top: 50px;
 }
-.row-blue::after{
-  content: '';
-  display: table;
-  clear: both;
+.container-blue{
+  padding-bottom: 100px;
 }
 .box-blue{
-  float: left;
   width: 25%;
   height: 200px;
   border: 1px solid white;
 }
-.row-blue:last-of-type{
-  margin-bottom: 100px;
+.start-grow{
+  height:500px;
 }
-
 .num-customer{
   height: 150px;
   width:150px;
-  background-color: purple;
   margin: 50px;
+  text-align: center;
+  line-height: 30px;
 }
+.num-customer h6 {
+  font-size: 2em;
+}
+.num-customer p {
+  font-size: 0.8em;
+}
+.container-grow{
+  height:100%;
+}
+.form-partner {
+  width: 60%;
+  height: 100%;
+}
+.form-partner .img-logo-partner{
+
+  height: 30%;
+  width: 100%;
+  background-color: green;
+}
+.form-partner .foto-sorriso{
+  height: 70%;
+  width: 100%;
+  background-color: darkgreen;
+}
+/* footer{
+  background-color: blue;
+}
+.box-footer{
+  height: 200px;
+  width: 25%;
+  background-color: lightblue;
+  border: 1px solid black;
+} */
